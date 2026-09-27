@@ -1,5 +1,6 @@
 package com.sky.dto;
 
+import com.sky.entity.Employee;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -15,5 +16,6 @@ public class EmployeePageQueryDTO implements Serializable {
 
     //每页显示记录数
     private int pageSize;
+
 
 }
